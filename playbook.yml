@@ -1,6 +1,6 @@
 ---
 - name: Configure Oracle Linux 7 with Oracle Database 12c
-  hosts: oradb
+  hosts: testserver
   become: True
   vars_files:
     # User defined variables for infrastructure
