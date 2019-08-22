@@ -1,7 +1,9 @@
 ---
 - name: Configure Oracle Linux 7 with Oracle Database 12c
   hosts: testserver
-  become: True
+  become: yes
+  become_user: root
+  become_method: sudo 
   vars_files:
     # User defined variables for infrastructure
     - infra-vars.yml
