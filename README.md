@@ -4,7 +4,7 @@ Ansible playbook to configure a CentOS/RHEL/Oracle Linux 7 server with Oracle 12
 Requirement : 
 
 - Ansible
-- Centos 7 as a deployment server  ( 8gb minimum and 50gb storage)
+- Centos 7 as a deployment server (also the server might need about 30gb space and about 2-3 gb RAM. )
 
 
 Download from Oracle support the Oracle installation files: 
