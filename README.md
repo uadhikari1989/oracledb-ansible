@@ -15,7 +15,7 @@ and put them to folder roles/oracle-install/files inside checkout folder
 Once the file has been kept in respective folder . Run the following command from Ansible master . 
 
 ```
-sudo ansible-playbook -i hosts playbook.yml -e ansible_python_interpreter=auto -v
+ansible-playbook -i hosts playbook.yml -K
 
 ```
 
